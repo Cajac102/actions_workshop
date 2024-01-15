@@ -12,4 +12,4 @@ jobs:
 
     - name: Count files ending in .py
       run: |
-        echo "Repoitory contains $(find . -name '*.py' | wc -l) Python files."
+        echo "Count number of python code lines: $(find . -name '*.py' | xargs wc -l) lines."
