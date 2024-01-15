@@ -2,6 +2,13 @@ name: Print Temperature of Dynamically Provided City
 
 # Add the correct triggers for this workflow
 
+on:
+  workflow_dispatch:
+    inputs:
+      city:
+        required: true
+        description: "City"
+
 jobs:
   print_temperature:
     runs-on: ubuntu-latest
