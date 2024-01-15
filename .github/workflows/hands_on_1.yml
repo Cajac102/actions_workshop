@@ -12,4 +12,4 @@ jobs:
 
     - name: Count files ending in .py
       run: |
-        echo "Count number of python code lines: $(find . -name '*.py' | xargs wc -l) lines."
+        echo "Count number of python code lines: $(find . -name '*.py' | xargs wc -l) lines haha."
